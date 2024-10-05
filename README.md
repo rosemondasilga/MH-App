@@ -1,1 +1,1 @@
-# MH-App
+# Mental Help App
