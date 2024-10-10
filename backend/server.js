@@ -6,7 +6,7 @@ import { router as userRouter } from "./routes/user-route.js";
 
 const app = express();
 const dbURI = process.env.ATLAS_URI || "";
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5000;
 
 // use middleware
 app.use(cors());
