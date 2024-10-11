@@ -1,13 +1,18 @@
 import './App.css'
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import Home from './pages/Home';
 
 function App() {
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline flex justify-center text-red-400">
-        Welcome to the Mental Help App!
-      </h1>
-    </>
+    <BrowserRouter>
+   
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+     
+    </Routes>
+  </BrowserRouter>
   )
 }
 
