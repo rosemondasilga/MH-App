@@ -44,7 +44,7 @@ const Header: React.FC = () => {
         {/* Get Started Button */}
         <Link
           to="/login"
-          className="bg-[#002366] hidden  md:flex text-white px-4 py-2 rounded-full font-medium  items-center space-x-2 hover:bg-gray-200 transition"
+          className="bg-[#002366] hidden  md:flex text-white px-4 py-2 rounded-full font-medium  items-center space-x-2 hover:bg-blue-900 transition"
         >
           <span>Get Started</span>
           <FaArrowRight className="ml-2" /> {/* Arrow icon */}
