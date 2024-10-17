@@ -2,7 +2,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
-import HeroSection from '../components/Greetings';
 import ResourcesSection from '../components/ResourceSection';
 import MetricCard from '../components/MetricCard';
 import QuickLinks from '../components/QuickLinks';
