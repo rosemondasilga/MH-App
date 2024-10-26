@@ -30,8 +30,14 @@ const Sidebar: React.FC<{ isOpen: boolean }> = ({ isOpen }) => {
             </Link>
           </li>
           <li>
-            <Link to="/profile" className={`hover:bg-gray-500 hover:text-white block py-2 px-4 rounded ${isActive('/content') ? 'bg-gray-700 text-white' : ''}`}>
+            <Link to="/content" className={`hover:bg-gray-500 hover:text-white block py-2 px-4 rounded ${isActive('/content') ? 'bg-gray-700 text-white' : ''}`}>
             Content
+            </Link>
+          </li>
+
+          <li>
+            <Link to="/find-help" className={`hover:bg-gray-500 hover:text-white block py-2 px-4 rounded ${isActive('/find-help') ? 'bg-gray-700 text-white' : ''}`}>
+           Find Help
             </Link>
           </li>
 
